@@ -20,5 +20,10 @@
 
    npm install redux react-redux  --save
 
+   No caso desse projeto dedicado ao reducer ate aqui eu tenho 3 arquivos 
+   1 - frutas.actions.js 
+   2 - fruta.reducer.js 
+   eos arquivos das contantes que eu ainda vou criar  
+
 
 */
