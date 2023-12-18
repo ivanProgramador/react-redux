@@ -16,5 +16,9 @@
    ela e passa de volta para o react renderizar o componete agora com um novo 
    estado.  
 
+   instalando o redux 
+
+   npm install redux react-redux  --save
+
 
 */
