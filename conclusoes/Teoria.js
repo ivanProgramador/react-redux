@@ -23,7 +23,10 @@
    No caso desse projeto dedicado ao reducer ate aqui eu tenho 3 arquivos 
    1 - frutas.actions.js 
    2 - fruta.reducer.js 
-   eos arquivos das contantes que eu ainda vou criar  
+   3 - frutas.js(constantes)
+
+   eos arquivos das contantes que vão me ajudar a padronizar 
+   o modo de chamar minhas ações em relação ao componentes   
 
 
 */
