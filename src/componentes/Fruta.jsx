@@ -1,7 +1,15 @@
 import React from "react";
+import { actions } from "../Actions/frutas.action";
+import { useDispatch } from "react-redux";
 
 const Fruta = ({fruta}) =>{
+    
+        const dispatch = useDispatch();
+
+       
+    
     return(
+        
         <div>
             <ul>
                 <li>
@@ -11,7 +19,7 @@ const Fruta = ({fruta}) =>{
                     <strong>Quantidade:</strong>{fruta.quantidade}
                 </li>
             </ul>
-            <button onClick={()=> alert(fruta.id)} >Remover</button>
+            <button onClick={() => dispatch(actions.remover(fruta))} >Remover</button>
         </div>
     )
 }

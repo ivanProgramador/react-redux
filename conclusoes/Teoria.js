@@ -86,7 +86,10 @@ return(
 
 }
 -------------------------------------------------------------------------------
-
+Nesse ponto as noassas açõies exitem porem ainda não funcionan 
+para isso aconetecer eu tenho que usar um disparador, e a função useDispatch()
+nativa do redux, essa ação tem quer disparada apartir do componente Adicionar fruta
+(COMENTARIOS NO CODIGO)
    
 
    
