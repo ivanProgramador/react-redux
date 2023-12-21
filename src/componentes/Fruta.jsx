@@ -10,7 +10,7 @@ const Fruta = ({fruta}) =>{
     
     return(
         
-        <div>
+        <div className="fruta">
             <ul>
                 <li>
                     <strong>Fruta:</strong>{fruta.nome}

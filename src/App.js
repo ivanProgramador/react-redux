@@ -4,7 +4,7 @@ import ListaFrutas from './componentes/ListaFrutas';
 
 function App() {
   return (
-    <div className="App">
+    <div className="container">
 
 
       <ListaFrutas/>
